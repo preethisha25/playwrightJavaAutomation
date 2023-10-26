@@ -27,11 +27,4 @@ Create a test that will:
 - After multiple calls, check if have received duplicate quotes
 - If there is a duplicate quote present after 3 requests, the test should fail
 
-
-## Task 3, Push code and open a PR on this repo
-
- 
-
- 
-
 ## Task 3, After please push and open a PR in this repo.
