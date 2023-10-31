@@ -1,6 +1,3 @@
-# Interview Automation Tech Test
-Repo used for interview testing.
-
 # Mid SDET Tech Test
 
 You will need to have completed this tech test with code committed to your branch at least 2 hours before the interview is scheduled. If more time is required, please inform us **ASAP**. Please note we will only reschedule the interview a maximum of one time.
