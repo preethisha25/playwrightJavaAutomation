@@ -5,8 +5,10 @@
     <classes>
       <class name="com.qa.ui.tests.HomePageTest">
         <methods>
+          <include name="addcartItem"/>
           <include name="OverViewItem"/>
-          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="checkoutItem"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.qa.ui.tests.HomePageTest -->

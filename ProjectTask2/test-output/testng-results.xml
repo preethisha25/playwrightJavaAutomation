@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-03T14:27:26Z" name="Default suite" finished-at="2023-11-03T14:27:57Z" duration-ms="31016">
+  <suite started-at="2023-11-03T15:08:13Z" name="Default suite" finished-at="2023-11-03T15:09:03Z" duration-ms="49340">
     <groups>
     </groups>
-    <test started-at="2023-11-03T14:27:26Z" name="Default test" finished-at="2023-11-03T14:27:57Z" duration-ms="31016">
-      <class name="com.qa.api.tests.GETAPICall">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.api.tests.GETAPICall@d9345cd]" started-at="2023-11-03T19:57:26Z" name="setup" finished-at="2023-11-03T19:57:53Z" duration-ms="26819" status="PASS">
+    <test started-at="2023-11-03T15:08:13Z" name="Default test" finished-at="2023-11-03T15:09:03Z" duration-ms="49340">
+      <class name="com.qa.ui.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ui.tests.HomePageTest@59505b48]" started-at="2023-11-03T20:38:13Z" name="setup" finished-at="2023-11-03T20:38:59Z" duration-ms="45423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getUsersAPITest()[pri:0, instance:com.qa.api.tests.GETAPICall@d9345cd]" started-at="2023-11-03T19:57:53Z" name="getUsersAPITest" finished-at="2023-11-03T19:57:57Z" duration-ms="4121" status="PASS">
+        <test-method signature="login()[pri:0, instance:com.qa.ui.tests.HomePageTest@59505b48]" started-at="2023-11-03T20:38:59Z" name="login" finished-at="2023-11-03T20:38:59Z" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUsersAPITest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.api.tests.GETAPICall@d9345cd]" started-at="2023-11-03T19:57:57Z" name="teardown" finished-at="2023-11-03T19:57:57Z" duration-ms="50" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="addcartItem()[pri:0, instance:com.qa.ui.tests.HomePageTest@59505b48]" started-at="2023-11-03T20:38:59Z" name="addcartItem" finished-at="2023-11-03T20:39:00Z" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.qa.api.tests.GETAPICall -->
+        </test-method> <!-- addcartItem -->
+        <test-method signature="checkoutItem()[pri:0, instance:com.qa.ui.tests.HomePageTest@59505b48]" started-at="2023-11-03T20:39:00Z" name="checkoutItem" finished-at="2023-11-03T20:39:01Z" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutItem -->
+        <test-method signature="OverViewItem()[pri:0, instance:com.qa.ui.tests.HomePageTest@59505b48]" started-at="2023-11-03T20:39:01Z" name="OverViewItem" finished-at="2023-11-03T20:39:01Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OverViewItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ui.tests.HomePageTest@59505b48]" started-at="2023-11-03T20:39:01Z" name="tearDown" finished-at="2023-11-03T20:39:03Z" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ui.tests.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

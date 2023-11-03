@@ -1,5 +1,7 @@
 package com.qa.ui.tests;
 
+import java.util.Properties;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,11 +15,13 @@ public class HomePageTest {
 	PlaywrightFactory pf;
 	Page page;
 	HomePage homePage;
-
+	Properties prop;
+	
 	@BeforeTest
 	public void setup() {
 		pf= new PlaywrightFactory();
-		page=pf.initBrowser("chrome");
+		prop = pf.init_prop();
+		page=pf.initBrowser(prop);
 		homePage = new HomePage(page);
 		
 	}
@@ -25,7 +29,7 @@ public class HomePageTest {
 	
 	@Test(priority=1)
 	public void login() {
-		homePage.loginSaucedemo("standard_user", "secret_sauce");
+		homePage.loginSaucedemo(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
 	@Test(priority=2)
