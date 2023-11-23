@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-23T14:37:33 IST" name="Default suite" finished-at="2023-11-23T14:39:04 IST" duration-ms="90804">
+    <groups>
+    </groups>
+    <test started-at="2023-11-23T14:37:33 IST" name="Default test" finished-at="2023-11-23T14:39:04 IST" duration-ms="90804">
+      <class name="com.qa.testapp.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:37:33 IST" name="setup" finished-at="2023-11-23T14:38:11 IST" duration-ms="37922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPageTitleTest()[pri:1, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:38:11 IST" name="LoginPageTitleTest" finished-at="2023-11-23T14:38:11 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method signature="LoginPageUrlTest()[pri:2, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:38:11 IST" name="LoginPageUrlTest" finished-at="2023-11-23T14:38:11 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageUrlTest -->
+        <test-method signature="Login()[pri:3, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:38:11 IST" name="Login" finished-at="2023-11-23T14:38:17 IST" duration-ms="6468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="navigateToYourCartTest()[pri:4, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:38:17 IST" name="navigateToYourCartTest" finished-at="2023-11-23T14:38:24 IST" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToYourCartTest -->
+        <test-method signature="CheckOutInfoDetailsTest()[pri:5, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:38:24 IST" name="CheckOutInfoDetailsTest" finished-at="2023-11-23T14:38:32 IST" duration-ms="8392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutInfoDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testapp.tests.LoginPageTest@bd4dc25]" started-at="2023-11-23T14:38:32 IST" name="tearDown" finished-at="2023-11-23T14:39:04 IST" duration-ms="31564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testapp.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
